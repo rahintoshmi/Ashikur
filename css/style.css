@@ -1,0 +1,1163 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* Common Css Starts */
+:root {
+    --font-family: "Poppins", sans-serif;
+    --second-family: "PT Sans", sans-serif;
+    --primaryColor: #fc0;
+    --primaryColorDark: rgb(218, 182, 34);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* border: 1px solid red; */
+    /* overflow-x: hidden; */
+}
+
+a {
+    text-decoration: none;
+}
+
+ul, ol {
+    list-style: none;
+}
+
+h1, h2, h3, h4, h5, h6, ul, p, span, ol {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: var(--font-family);
+
+}
+
+.btn {
+    padding: 15px 43px;
+    border-radius: 20px;
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 180%;
+    color: #fff;
+}
+
+.btn-primary {
+    background-color: var(--primaryColor);
+    border-color: var(--primaryColor);
+}
+
+.btn-primary:hover {
+    background-color: var(--primaryColorDark);
+    border-color: var(--primaryColorDark);
+}
+
+.btn-outline {
+    padding: 16px 18px;
+    font-weight: 500;
+    background-color: transparent;
+    border-color: #000;
+    font-size: 20px;
+    line-height: 180%;
+    color: #353535;
+}
+
+.btn-outline:hover {
+    background-color: var(--primaryColor);
+    color: #fff;
+}
+
+.justify-content {
+    justify-content: space-between;
+}
+
+/* Common CSS ends */
+
+
+/* Navbar Starts */
+#myNavbar ul li a {
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 200%;
+    color: #353535;
+    padding: 18px 22px 5px;
+    display: inline-block;
+    position: relative;
+}
+
+#myNavbar ul li a::after {
+    content: "";
+    display: block;
+    width: 0%;
+    left: 0;
+    bottom: 0;
+    height: 1px;
+    background-color: #353535;
+    position: absolute;
+    transition: 0.3s cubic-bezier(.08, .81, .88, .45);
+}
+
+#myNavbar ul li:hover a::after {
+    width: 100%;
+}
+
+header nav .navbar-toggler {
+    border: none;
+    background-color: #353535;
+    width: 45px;
+    height: 45px;
+    color: yellow;
+    border-radius: 0;
+}
+
+header nav .navbar-toggler:hover,
+header nav .navbar-toggler:focus {
+    box-shadow: none;
+}
+
+
+/* Navbar Ends */
+
+
+
+/* Banner Starts */
+#banner .bannertext h4 {
+    font-weight: 400;
+    font-size: 24px;
+    color: #353535;
+    /* margin-top: 114px; */
+}
+
+#banner .container {
+    padding: 116px 50px;
+}
+
+#banner .bannertext h2 {
+    font-family: var(--second-family);
+    font-weight: 700;
+    font-size: 64px;
+    color: #353535;
+    margin: 15px 0 25px;
+}
+
+#banner .bannertext p {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 180%;
+    color: #353535;
+    margin-bottom: 43px;
+}
+
+#banner .bannertext .btn-primary {
+    margin-right: 38px;
+}
+#banner .bannertext .btn-outline{
+    margin-left: 10px;
+}
+
+#banner .bannertext svg {
+    margin-left: 5px;
+}
+
+#banner .link img {
+    width: 40px;
+    height: 40px;
+    margin: 0 8px 0 8px;
+    padding: 10px;
+    border-radius: 100%;
+    background-color: #f4f3f3;
+}
+
+#banner .link h6 {
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 180%;
+    color: #353535;
+}
+
+#banner .link {
+    margin-top: 66px;
+}
+
+/* Banner Ends */
+
+
+/* About Starts */
+#about h4 {
+    font-family: var(--second-family);
+    font-weight: 700;
+    font-size: 50px;
+    color: #353535;
+    margin-top: 78px;
+
+}
+
+#about p {
+
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 190%;
+    color: #353535;
+    padding: 26px 0px 28px 3px;
+
+}
+
+#about a {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 180%;
+    color: #353535;
+    padding: 17px 43px;
+
+}
+
+#about {
+    background: linear-gradient(130deg, #fc0 0%, #fff5cb 100%);
+    height: 556px;
+    position: relative;
+
+
+
+}
+
+#about .img-fluid {
+    position: absolute;
+}
+
+#about .aboutimg {
+    padding: 26px;
+
+}
+
+#about .Ellipse {
+    position: absolute;
+    bottom: 0;
+    right: 20px;
+}
+
+/* About Ends */
+
+
+
+/*=============================================
+=            Cards            =
+=============================================*/
+#brandcard .brandcards h4 {
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 180%;
+    color: #353535;
+}
+
+#brandcard .brandcards p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 190%;
+
+    color: #7a7a7a;
+    margin-top: 14px;
+}
+
+#brandcard .brandcards {
+    box-shadow: 0 4px 30px 0 rgba(0, 0, 0, 0.08);
+    background: #fff;
+    border-radius: 20px;
+    text-align: center;
+    padding: 39px 47px 57px 47px;
+    margin: 155px 0 166px 0;
+}
+
+#brandcard .brandcards img {
+    margin-bottom: 18px;
+
+}
+
+/*=====  End of Cards  ======*/
+
+
+
+
+/*=============================================
+=            branding            =
+=============================================*/
+#branding {
+    background: linear-gradient(130deg, #fc0 0%, #fff5cb 100%);
+    height: 473px;
+    border-radius: 30px;
+    margin: auto;
+    position: relative;
+    margin-left: 155px;
+    margin-right: 166px;
+}
+
+#branding h4 {
+    font-family: var(--second-family);
+    font-weight: 700;
+    font-size: 44px;
+    color: #353535;
+    margin: 0 0 21px 98px;
+
+}
+
+#branding p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 190%;
+    color: #353535;
+    margin: 0 -90px 35px 98px;
+
+}
+
+#branding a {
+    display: inline-block;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 180%;
+    text-align: center;
+    color: #353535;
+    border: 1px solid #000;
+    border-radius: 20px;
+    padding: 18px 38px;
+    margin: 0 0px 0px 98px;
+
+}
+
+#branding .brandtext {
+    padding: 82px 51px 76px 98px;
+
+}
+
+#branding .brandimage img {
+    position: absolute;
+    top: 26px;
+
+}
+
+#branding .l1 {
+    position: absolute;
+    top: 325px;
+    bottom: 0px;
+    left: 750px;
+    height: 74px;
+    width: 71px;
+
+}
+
+#branding .l2 {
+    position: absolute;
+    top: -33px;
+    right: 155px;
+    height: 82px;
+    width: 90px;
+
+}
+
+
+/*=====  End of branding  ======*/
+
+
+
+/*=============================================
+=            Help            =
+=============================================*/
+#help {
+    padding: 146px 165px 225px 165px;
+}
+
+#help .card1 h4 {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 180%;
+    color: #353535;
+    margin-left: 18px;
+}
+
+#help .card1 p {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 180%;
+    color: #353535;
+    margin-left: 18px;
+
+}
+
+#help .card1 img, #help .card3 img {
+    height: 58px;
+    width: 58px;
+
+}
+
+#help .card1 {
+    border-radius: 20px;
+    width: 380px;
+    height: 93px;
+    box-shadow: 0 4px 30px 0 rgba(0, 0, 0, 0.08);
+    background: #fff;
+    margin-bottom: 24px;
+}
+
+
+#help .card1 {
+    padding: 17px 133px 18px 17px;
+}
+
+#help .text h4 {
+    font-family: var(--second-family);
+    font-weight: 700;
+    font-size: 50px;
+    text-align: right;
+    color: #353535;
+}
+
+#help .text p {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 190%;
+    text-align: right;
+    color: #353535;
+    margin-top: 26px;
+    margin-bottom: 32px;
+}
+
+#help .text h5 {
+    font-family: var(--second-family);
+    font-weight: 700;
+    font-size: 40px;
+    text-align: right;
+    color: #353535;
+}
+
+#help .text .p2 {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 180%;
+    color: #353535;
+    margin-top: 9px;
+
+
+}
+
+#help .text .p1 {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 180%;
+    color: #353535;
+    margin-top: 9px;
+}
+
+#help .cards {
+    margin-right: 150px;
+}
+
+/*=====  End of Help  ======*/
+
+
+
+
+/*=============================================
+=            Experience             =
+=============================================*/
+#experience {
+    margin-bottom: 297px;
+}
+
+#experience h4 {
+    margin-bottom: 100px;
+    font-weight: 700;
+    font-size: 50px;
+    text-align: center;
+    color: #353535;
+}
+
+#experience h3 {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 180%;
+    color: #353535;
+}
+
+#experience p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 200%;
+    color: #7a7a7a;
+    margin-top: 16px;
+}
+
+#experience .timelineYear p {
+    margin-top: 12px;
+
+}
+
+.timeline .timelineYear {
+    border-right: 2px dashed #7a7a7a;
+    padding: 2px 0 155px;
+    position: relative;
+}
+
+.timeline .timelineCnt {
+    padding: 2px 0 115px;
+}
+
+.timeline .timelineYear::before {
+    content: "";
+    width: 42px;
+    height: 42px;
+    border-radius: 100%;
+    border: 2px dashed #7a7a7a;
+    position: absolute;
+    right: -22px;
+    top: -22px;
+    background-color: #fff;
+
+}
+
+.timeline .timelineYear::after {
+    content: "";
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    position: absolute;
+    right: -11px;
+    top: -10px;
+}
+
+.timeline.green .timelineYear::after {
+    background-color: #52ab70;
+}
+
+.timeline.red .timelineYear::after {
+    background-color: #f17676;
+}
+
+.timeline.yellow .timelineYear::after {
+    background-color: #ffd233;
+}
+
+
+/*=====  End of Experience   ======*/
+
+
+
+
+/*=============================================
+=            Experts            =
+=============================================*/
+.progress-container {
+    border-radius: 50px;
+    width: 380px;
+    height: 6px;
+    overflow: hidden;
+    background: #d9d9d9;
+}
+
+.progress-bar {
+    border-radius: 50px;
+    width: 342px;
+    height: 6px;
+    background: #f16500;
+}
+
+.progress-container2 {
+    border-radius: 50px;
+    width: 380px;
+    height: 6px;
+    overflow: hidden;
+    background: #d9d9d9;
+}
+
+.progress-bar2 {
+    border-radius: 50px;
+    width: 315px;
+    height: 6px;
+    background: #03249b;
+}
+
+.progress-container3 {
+    border-radius: 50px;
+    width: 380px;
+    height: 6px;
+    overflow: hidden;
+    background: #d9d9d9;
+}
+
+.progress-bar3 {
+    border-radius: 50px;
+    width: 330px;
+    height: 6px;
+    background-color: #700d60;
+}
+
+.progress-container4 {
+    border-radius: 50px;
+    width: 380px;
+    height: 6px;
+    overflow: hidden;
+    background: #d9d9d9;
+}
+
+.progress-bar4 {
+    border-radius: 50px;
+    width: 280px;
+    height: 6px;
+    background: #234bda;
+}
+
+.expertCnt h4 {
+    font-family: var(--second-family);
+    font-weight: 700;
+    font-size: 50px;
+    color: #353535;
+}
+
+.expertCnt p {
+    margin: 49px 0 39px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 200%;
+    color: #7a7a7a;
+}
+
+#experts svg {
+
+    margin-left: 10px;
+
+}
+.expertArea{
+    padding: 20px;
+}
+
+#experts .expertArea a {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 180%;
+    text-align: center;
+    color: #353535;
+
+}
+
+#experts .expertArea .b1 {
+    border: 1px solid #000;
+    border-radius: 20px;
+    padding: 16px 64px;
+    margin-right: 72px;
+}
+
+.expertArea .figma h4 {
+    margin: 51px 0 11px 0;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 180%;
+    color: #353535;
+}
+
+.expertArea span {
+    margin-left: 247px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 180%;
+    text-align: right;
+    color: #f16500;
+}
+
+.Photoshop h4 {
+    margin: 44px 0 11px 0;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 180%;
+    color: #353535;
+}
+
+.Photoshop span {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 180%;
+    text-align: right;
+    color: #03249b;
+    margin-left: 181px;
+}
+
+.XD h4 {
+    margin: 44px 0 11px 0;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 180%;
+    color: #700d60;
+}
+
+.XD span {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 180%;
+    text-align: right;
+    color: #700d60;
+    margin-left: 267px;
+}
+
+.Illustrator h4 {
+    margin: 44px 0 11px 0;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 180%;
+    color: #234bda;
+}
+
+.Illustrator span {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 180%;
+    text-align: right;
+    color: #234bda;
+    margin-left: 156px;
+}
+
+#experts {
+    padding-bottom: 146px;
+}
+
+/*=====  End of Experts  ======*/
+
+
+
+/*=============================================
+=            Service            =
+=============================================*/
+#service {
+    background: #fff7d5;
+    text-align: center;
+    height: 838px;
+    padding: 71px 104px;
+}
+
+#service h4 {
+    font-family: var(--second-family);
+    font-weight: 700;
+    font-size: 50px;
+    text-align: center;
+    color: #353535;
+}
+
+#service p {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 180%;
+    text-align: center;
+    color: #7a7a7a;
+    margin-top: 13px;
+}
+
+#service .card1, #service .card3 {
+    border: 0.10px solid #353535;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.06);
+    background: #fff;
+    text-align: center;
+    padding: 53px 10px 12px 12px;
+    margin-top: 99px;
+
+
+}
+
+#service .card1 {
+    margin-right: 19px;
+}
+
+#service .card3 {
+    margin-left: 19px;
+}
+
+#service .card1 img, #service .card3 img {
+    width: 88px;
+    height: 88px;
+}
+
+#service .card2 img {
+    width: 100px;
+    height: 100px;
+}
+
+#service .card1 h5, #service .card3 h5 {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 180%;
+    color: #353535;
+    margin-top: 10px;
+}
+
+#service .card1 p, #service .card3 p {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 180%;
+    color: #7a7a7a;
+}
+
+#service .card2 {
+    border: 0.10px solid #353535;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.06);
+    background: linear-gradient(151deg, #fc0 0%, #ffe476 98.84%);
+    padding: 45px 15px 52px 16px;
+    margin-top: 73px;
+
+}
+
+#service .card2 h5 {
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 180%;
+    color: #353535;
+    margin-top: 14px;
+}
+
+#service .card2 p {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 180%;
+    color: #7a7a7a;
+}
+
+/*=====  End of Service  ======*/
+
+
+
+/*=============================================
+=            Feedback            =
+=============================================*/
+#Feedback {
+    background: #fbfbfb;
+    height: 859px;
+    padding: 92px 58px;
+    /* position: relative; */
+}
+
+#Feedback h5 {
+    text-align: left;
+    font-weight: 700;
+    margin-left: 60px;
+    font-size: 50px;
+    line-height: 135%;
+    color: #353535;
+}
+
+#Feedback .p1 {
+    text-align: left;
+    font-weight: 400;
+    margin-left: 165px;
+    font-size: 18px;
+    line-height: 180%;
+    color: #7a7a7a;
+    margin: 13px 63px;
+
+}
+
+#Feedback .feedbackCnt h4 {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 200%;
+    color: #353535;
+    margin-top: -146px;
+}
+
+#Feedback .feedbackCnt .p2 {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 200%;
+    color: #7a7a7a;
+    margin: 160px 0;
+}
+
+#Feedback .feedbackCnt .p3 {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 200%;
+    text-align: left;
+    color: #7a7a7a;
+    
+}
+
+#Feedback .feedbackimg {
+    margin-top: 50px;
+
+
+}
+
+#Feedback .feedbackCnt {
+    margin-left: 99px;
+}
+
+
+/*=====  End of Feedback  ======*/
+
+
+
+/*=============================================
+=            Blog            =
+=============================================*/
+#blog {
+    padding: 91px 166px 166px 0px;
+}
+
+#blog img {
+    width: 260px;
+    height: 243px;
+    margin-bottom: 41px;
+    margin-left: 57px;
+    margin-right: 34px;
+}
+
+#blog h5 {
+    font-family: var(--second-family);
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 135%;
+    text-align: right;
+    color: #353535;
+    margin-bottom: 112px;
+}
+
+#blog p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 190%;
+    color: #7a7a7a;
+    margin-left: 8px;
+    margin-right: -117px;
+}
+
+#blog span {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 190%;
+    color: #353535;
+    margin-left: 12px;
+}
+
+#blog h4 {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 190%;
+    color: #353535;
+    margin-bottom: 131px;
+    margin-top: 10px;
+    margin-right: -86px;
+}
+
+#blog a {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 190%;
+    color: #353535;
+    margin-right: 96px;
+}
+
+#blog .s1 {
+    margin-top: -71px;
+    margin-left: 103px;
+}
+
+#blog .cn1 {
+    margin-right: 95px;
+}
+
+
+/*=====  End of Blog  ======*/
+
+
+/*=============================================
+=            Email            =
+=============================================*/
+#email {
+    border-radius: 30px;
+    background: linear-gradient(130deg, #fc0 0%, #fff5cb 100%);
+    /* height: 295px;
+    width: 1110px; */
+    margin: auto;
+    padding: 80px 81px;
+    margin: 0 166px 152px 164px;
+}
+
+#email h4 {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 200%;
+    text-align: left;
+    color: #353535;
+}
+
+#email h3 {
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 200%;
+    color: #353535;
+}
+
+#email p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 200%;
+    color: #353535;
+}
+
+#email .e1 {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 200%;
+    color: #7a7a7a;
+    flex: 1;
+    border-radius: 16px 0 0 16px;
+    border-color: #fff;
+    border: none;
+    outline: none;
+    padding: 23px 0 23px 37px;
+
+}
+
+#email form {
+    border-radius: 16px;
+    background: #fff;
+    border-color: #fff;
+    display: flex;
+    margin-top: 50px;
+    border: none;
+    outline: none;
+    margin-left: 70px;
+
+}
+
+#email .e2 {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 200%;
+    color: #fff;
+    border-radius: 0 16px 16px 0;
+    outline: none;
+    border: none;
+    background: #ff6565;
+    border-color: #ff6565;
+    padding: 25px;
+    cursor: pointer;
+}
+
+/*=====  End of Email  ======*/
+
+
+
+/*=============================================
+=            Footer            =
+=============================================*/
+#footer {
+    background: url(../images/bg.png);
+    padding: 70px 85px;
+    height: 480px;
+    position: relative;
+}
+
+#footer .logo .p0 {
+    /* margin: 150px 0; */
+    font-weight: 400;
+    font-size: 18px;
+    margin-top: 60px;
+    line-height: 180%;
+    color: #bbb9b9;
+}
+
+#footer .logo h5 {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 180%;
+    color: #fff;
+    margin-top: 10px;
+}
+
+#footer .content h2 {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 200%;
+    color: #fff;
+}
+
+#footer .content .p1 {
+    /* margin: 5px 94px; */
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 180%;
+    margin-left: 1px;
+    margin-right: -46px;
+    margin-bottom: 94px;
+    /* text-align: justify; */
+    color: #bbb9b9;
+}
+
+#footer .content .p2 {
+
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 180%;
+    /* text-align: justify; */
+    color: #bbb9b9;
+}
+
+#footer .content h6 {
+    margin-top: 4px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 180%;
+    color: #fff;
+}
+
+#footer .link .a1 {
+    border-radius: 16px;
+    background: #fc0;
+    margin: 16px 66px 15px 32px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 180%;
+    color: #fff;
+}
+
+#footer .linkcnt h6 {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 180%;
+    color: #fff;
+    margin-left: -20px;
+    margin-top: 3px;
+}
+
+#footer .link svg {
+    margin-left: 11px;
+}
+
+
+#footer .linkcnt img {
+    width: 40px;
+    height: 40px;
+    margin: 0 8px 0 8px;
+    padding: 10px;
+    border-radius: 100%;
+    background-color: #484848;
+}
+
+#footer .linkcnt {
+    margin-top: 66px;
+}
+
+#footer .link {
+    padding-left: 60px;
+}
+
+#footer .linkcnt .btn {
+    margin-top: 80px;
+    margin-left: 80px;
+    display: inline-block;
+}
+
+
+/*=====  End of Footer  ======*/

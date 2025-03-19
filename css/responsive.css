@@ -1,0 +1,847 @@
+@media (max-width:991px) {
+    #banner .bannertext h4 {
+        font-size: 17px;
+        margin-left: -26px;
+    }
+
+    #banner .bannertext h2 {
+        font-size: 26px;
+        margin-left: -27px;
+        /* text-align: left; */
+    }
+
+    #banner .bannertext p {
+        font-size: 11px;
+        margin-left: -23px;
+        margin-bottom: 117px;
+    }
+
+    .btn {
+        padding: 0px 8px;
+        border-radius: 4px;
+        font-size: 12px;
+
+    }
+
+    .btn-outline {
+        padding: -8px -8px;
+
+        font-size: 12px;
+        /* margin-top: 10px;
+
+        margin-bottom: 12px; */
+
+    }
+
+    #banner .link h6 {
+        font-size: 13px;
+        margin-top: 4px;
+        /* margin-right: 2px; */
+        margin-left: -22px;
+    }
+
+    #banner .link .images {
+        width: 34px;
+        height: 33px;
+        margin: 2px -7px -1px 6px;
+        margin-top: 3px;
+    }
+
+    #banner .bannertext svg {
+        width: 12px;
+    }
+
+    #banner .container {
+        padding: 21px 50px;
+    }
+
+
+    #banner .link {
+        margin-top: -44px;
+    }
+
+    #banner .btn.btn-outline {
+        /* margin: -234px 10px 10px 97px; */
+        padding: 2px;
+        margin-left: -77px;
+        margin-top: -117px;
+        font-size: 10px;
+    }
+
+    #banner .bannertext .btn-primary {
+        /* margin-right: 38px; */
+        margin: -187px 6px 11px -22px;
+        padding: 2px;
+        font-size: 10px;
+    }
+
+    #about .Ellipse {
+        position: absolute;
+        top: 0;
+        right: 20px;
+        transform: rotate(180deg);
+        height: 50px;
+    }
+
+    #about h4 {
+        font-size: 35px;
+        margin-top: 51px;
+        margin-left: 10px;
+    }
+
+    #about p {
+        font-size: 10px;
+        margin-left: 10px;
+    }
+
+    #about a {
+        font-size: 10px;
+        padding: 9px 26px;
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+
+    #about .img-fluid {
+        transform: scaleX(-1);
+        max-width: 300px;
+        bottom: 0;
+        left: 0px;
+    }
+
+    #brandcard .brandcards {
+        border-radius: 10px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+        margin-top: 34px;
+        margin-bottom: -11px;
+    }
+
+    #brandcard .brandcards img {
+        margin-bottom: 18px;
+        width: 83px;
+        height: 85px;
+        margin-right: 10px;
+        padding: 10px 10px;
+    }
+
+    #brandcard .brandcards h4 {
+        font-size: 22px;
+        margin-top: -90px;
+        margin-left: 68px;
+    }
+
+    #brandcard .brandcards p {
+        font-size: 12px;
+        margin-top: 15px;
+        margin-left: 97px;
+        text-align: left;
+    }
+
+    #branding {
+        background: linear-gradient(130deg, #fc0 0%, #fff5cb 100%);
+        height: 473px;
+        border-radius: 30px;
+        margin: auto;
+        margin-top: 50px;
+        position: relative;
+    }
+
+    #branding .l2 {
+        top: -33px;
+        right: 29px;
+        width: 89px;
+    }
+
+    #branding .brandimage img {
+        position: absolute;
+        top: 257px;
+        left: 60px;
+        height: 219px;
+    }
+
+    #branding h4 {
+        font-size: 28px;
+        margin-top: -32px;
+        margin-left: -80px;
+    }
+
+    #branding p {
+        font-size: 11px;
+        margin-top: 10px;
+        margin-left: -79px;
+    }
+
+    #branding a {
+        font-size: 13px;
+        border-radius: 10px;
+        padding: 8px 12px;
+        margin-left: -79px;
+        margin-top: -21px;
+    }
+
+    #branding .brandtext {
+        padding: 82px 76px 71px 79px;
+    }
+
+    #help {
+        padding: 0px 0px 0px 0px;
+    }
+
+    #help .text h4 {
+        font-size: 42px;
+        margin-top: 28px;
+        text-align: center;
+    }
+
+    #help .text p {
+        text-align: left;
+        margin-top: 26px;
+        margin-left: 10px;
+        margin-bottom: 32px;
+    }
+
+    #help .text h5 {
+        font-size: 40px;
+        text-align: left;
+        padding-left: 22px;
+    }
+
+    #help .text .p2 {
+        text-align: right;
+        margin-top: -56px;
+        margin-left: 137px;
+    }
+
+    #help .card1 {
+        padding: 16px 92px 19px 19px;
+    }
+
+    #help .card1 {
+        border-radius: 8px;
+        width: 303px;
+        height: 105px;
+        margin-bottom: 24px;
+    }
+
+    #experience h3 {
+        text-align: right;
+    }
+
+    .timeline .timelineYear {
+        border-right: none;
+        padding: 0px 0px 9px;
+    }
+
+    .timeline {
+        border-left: 2px dashed #7a7a7a;
+        padding: 0 48px 2px;
+        margin-left: 17px;
+
+
+    }
+
+    #experience h3 {
+        font-size: 17px;
+        text-align: left;
+    }
+
+    #experience p {
+        font-size: 13px;
+        margin-top: 4px;
+    }
+
+    #experience h4 {
+        margin-bottom: 59px;
+        font-size: 28px;
+        margin-top: 10px;
+    }
+
+    .timeline .timelineCnt {
+        padding: 2px 0 61px;
+    }
+
+    .timeline .timelineYear::before {
+        right: auto;
+        top: -22px;
+        left: -56px;
+    }
+
+    .timeline .timelineYear::after {
+        right: -4px;
+        top: -10px;
+        left: -46px;
+    }
+
+    #experience .timelineYear p {
+        margin-top: 4px;
+    }
+
+    .expertCnt h4 {
+        font-size: 39px;
+        margin-top: -274px;
+        text-align: center;
+    }
+
+    .expertCnt p {
+        margin: 23px 18px 30px;
+        font-size: 11px;
+    }
+
+    .expertArea {
+        padding: 8px;
+    }
+
+    #experts .expertArea .b1 {
+        border-radius: 12px;
+        padding: 10px 42px;
+        margin-right: 31px;
+        margin-top: 29px;
+        display: inline-block;
+        margin-left: 23px;
+    }
+
+    .btn {
+        font-size: 14px;
+        margin-left: 21px;
+    }
+
+    .expertArea span {
+        font-size: 18px;
+        text-align: right;
+        margin-left: 129px;
+    }
+
+    .Photoshop h4 {
+        /* margin: 44px -57px 11px 0; */
+        font-size: 18px;
+    }
+
+    /* 
+    .Illustrator h4 {
+        margin: 44px -40px 11px 0;
+    } */
+
+    .progress-bar {
+        border-radius: 50px;
+        width: 266px;
+        height: 6px;
+        background: #f16500;
+    }
+
+    .progress-container {
+        border-radius: 50px;
+        width: 300px;
+        height: 6px;
+        overflow: hidden;
+        background: #d9d9d9;
+    }
+
+    .progress-container2 {
+        border-radius: 50px;
+        width: 300px;
+        height: 6px;
+        overflow: hidden;
+        background: #d9d9d9;
+    }
+
+    .progress-bar2 {
+        border-radius: 50px;
+        width: 234px;
+        height: 6px;
+        background: #03249b;
+    }
+
+    .progress-container3 {
+        border-radius: 50px;
+        width: 300px;
+        height: 6px;
+        overflow: hidden;
+        background: #d9d9d9;
+    }
+
+    .progress-bar3 {
+        border-radius: 50px;
+        width: 250px;
+        height: 6px;
+        background-color: #700d60;
+    }
+
+    .progress-container4 {
+        border-radius: 50px;
+        width: 300px;
+        height: 6px;
+        overflow: hidden;
+        background: #d9d9d9;
+    }
+
+    .progress-bar4 {
+        border-radius: 50px;
+        width: 200px;
+        height: 6px;
+        background: #234bda;
+    }
+
+    #service {
+        padding: 86px 10px 75px 13px;
+        margin-right: 7px;
+        margin-top: -86px;
+        height: 1047px;
+    }
+
+    #service h4 {
+        font-size: 30px;
+        margin-top: -51px;
+        text-align: left;
+        margin-left: -94px;
+    }
+
+    #service p {
+        font-size: 11px;
+        text-align: left;
+        margin-left: -93px;
+        margin-top: 13px;
+    }
+
+    #service h4 {
+        font-family: var(--second-family);
+        font-weight: 700;
+        font-size: 50px;
+        color: #353535;
+    }
+
+    #service p {
+        font-family: var(--font-family);
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 180%;
+        color: #7a7a7a;
+        margin-top: 13px;
+    }
+
+    #service .card1, #service .card3 {
+        border: 0.10px solid #353535;
+        border-radius: 12px;
+        box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.06);
+        background: #fff;
+        text-align: center;
+        padding: 53px 10px 12px 12px;
+        margin-top: 99px;
+    }
+
+    #service .card1 {
+        margin-right: 19px;
+    }
+
+    #service .card3 {
+        margin-left: 19px;
+    }
+
+    #service .card1 img, #service .card3 img {
+        width: 88px;
+        height: 88px;
+    }
+
+    #service .card2 img {
+        width: 100px;
+        height: 100px;
+    }
+
+    #service .card1 h5, #service .card3 h5 {
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 180%;
+        color: #353535;
+        margin-top: 10px;
+    }
+
+    #service .card1 p, #service .card3 p {
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 180%;
+        color: #7a7a7a;
+    }
+
+    #service .card2 {
+        border: 0.10px solid #353535;
+        border-radius: 12px;
+        text-align: center;
+        box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.06);
+        background: linear-gradient(151deg, #fc0 0%, #ffe476 98.84%);
+        padding: 45px 15px 52px 16px;
+        margin-top: 73px;
+    }
+
+    #service .card2 h5 {
+        font-family: var(--font-family);
+        font-weight: 600;
+        font-size: 26px;
+        line-height: 180%;
+        color: #353535;
+        margin-top: 14px;
+    }
+
+    #service .card2 p {
+        font-family: var(--font-family);
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 180%;
+        color: #7a7a7a;
+    }
+
+    #service h4 {
+        font-size: 32px;
+        margin-left: 1px;
+    }
+
+    #service p {
+        font-size: 14px;
+        margin-left: 3px;
+    }
+
+    #service .row {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #service .card1, #service .card2, #service .card3 {
+        width: 100%;
+        padding: 12px 0px;
+        margin: 16px 0;
+    }
+
+    #service .card1, #service .card3 {
+        margin-right: 0;
+        margin-left: 0;
+    }
+
+    #service .card1 img, #service .card3 img {
+        width: 70px;
+        height: 70px;
+    }
+
+    #service .card2 img {
+        width: 80px;
+        height: 80px;
+    }
+
+    #service .card1 h5, #service .card3 h5 {
+        font-size: 20px;
+    }
+
+    #service .card2 h5 {
+        font-size: 22px;
+    }
+
+    #service .card1 p, #service .card3 p {
+        font-size: 12px;
+        margin-left: 10px;
+        text-align: center;
+    }
+
+    #service .card2 p {
+        font-size: 12px;
+        text-align: center;
+        margin-left: 10px;
+    }
+
+    #Feedback {
+        background: #fbfbfb;
+        height: 726px;
+        /* width: 72px; */
+        padding: 92px 154px;
+    }
+
+    #Feedback .feedbackimg img {
+        width: 293px;
+        height: 278px;
+        margin-left: -166px;
+        margin-top: -30px;
+    }
+
+    #Feedback h5 {
+        text-align: left;
+        margin-left: -151px;
+        font-size: 19px;
+        margin-right: -105px;
+        margin-top: -53px;
+    }
+
+    #Feedback .p1 {
+        font-size: 13px;
+        margin: 22px -151px;
+    }
+
+    #Feedback .feedbackCnt .p2 {
+        font-size: 12px;
+        margin-left: -250px;
+        margin-right: -15px;
+        margin-top: 10px;
+    }
+
+    #Feedback .feedbackCnt h4 {
+        font-size: 15px;
+        margin-top: -157px;
+        /* margin-right: -137px; */
+        margin-left: -250px;
+    }
+
+    #Feedback .feedbackCnt .p3 {
+        font-size: 15px;
+        /* margin-left: -396px; */
+        text-align: left;
+        margin-left: -249px;
+    }
+
+    #blog h5 {
+        font-size: 21px;
+        text-align: left;
+        margin-bottom: 38px;
+    }
+
+    #blog {
+        padding: 34px 0px 0px 0px;
+    }
+
+    #blog img {
+        width: 87px;
+        height: 106px;
+        margin-bottom: 41px;
+        margin-left: -1px;
+        margin-right: 13px;
+    }
+
+    #blog p {
+        font-size: 12px;
+        margin-left: 9px;
+    }
+
+    #blog span {
+        font-size: 12px;
+    }
+
+    #blog h4 {
+        font-size: 9px;
+        margin-bottom: 23px;
+        margin-top: 10px;
+        margin-right: 10px;
+    }
+
+    #blog a {
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 190%;
+        color: #353535;
+        margin-right: 96px;
+    }
+
+    #blog .s1 {
+        margin-top: 1px;
+        margin-left: 1px;
+        width: 15px;
+        height: 15px;
+    }
+
+    #email {
+        margin: 10px;
+        padding: 21px 11px;
+        margin-bottom: 24px;
+        margin-top: 52px;
+    }
+
+    #email h4 {
+        font-size: 16px;
+        text-align: left;
+    }
+
+    #email h3 {
+        font-size: 27px;
+    }
+
+    #email p {
+        font-size: 11px;
+    }
+
+    #email .e1 {
+        font-size: 9px;
+        margin-left: -71px;
+        border-radius: 12px 0 0 12px;
+        padding: 12px 0 10px 38px;
+    }
+
+    #email .e2 {
+        font-size: 9px;
+        border-radius: 0 16px 16px 0;
+        padding: 25px;
+        cursor: pointer;
+    }
+
+    a.btn.new.btn-primary {
+        font-size: 11px;
+        margin-left: -48px;
+        margin-top: 24px;
+        padding: 7px;
+    }
+
+    #footer {
+        padding: 20px 20px;
+        background: #575757;
+    }
+
+    #footer .logo, #footer .content, #footer .link {
+        margin-bottom: 20px;
+    }
+
+    #footer .logo img {
+        margin-left: -14px;
+    }
+
+    #footer .content h2 {
+        font-size: 24px;
+        margin-left: -15px;
+        margin-top: -203px;
+    }
+
+    #footer .content .p1 {
+        font-size: 14px;
+        text-align: left;
+        margin-left: -12px;
+        margin-bottom: 94px;
+        margin-right: -16px;
+    }
+
+    #footer .logo .p0 {
+        font-size: 16px;
+        margin-top: 158px;
+        margin-left: -13px;
+    }
+
+    #footer .logo h5 {
+        font-size: 16px;
+        margin-top: -29px;
+        margin-left: 27px;
+    }
+
+    #footer .content .p2 {
+        font-size: 16px;
+        margin-top: -28px;
+        margin-left: -14px;
+        padding-top: 10px;
+    }
+
+    #footer .content h6 {
+        margin-top: -30px;
+        margin-left: 38px;
+        font-size: 16px;
+    }
+
+    a.btn.new.btn-primary {
+        font-size: 11px;
+        /* margin-left: 169px; */
+        /* margin-right: -108px; */
+        margin-top: 0px;
+        margin-left: -62px;
+        padding: 7px;
+    }
+
+    #footer .a11 {
+        padding: 0px 10px;
+    }
+
+    #footer .a33 {
+        padding: 0px 10px;
+    }
+
+    #footer .linkcnt h6 {
+        font-size: 18px;
+        margin-left: -63px;
+        margin-right: 7px;
+        margin-top: 3px;
+    }
+
+    /* #footer .linkcnt {
+        justify-content: center;
+    } */
+
+    /* #footer {
+        background: #575757;
+        padding: 29px 6px;
+    }
+
+    #footer .content h2 {
+        margin-top: 28px;
+        font-size: 20px;
+    }
+
+    #footer .content .p1 {
+        font-size: 11px;
+        margin-left: 1px;
+        margin-bottom: 121px;
+        margin-right: 10px;
+    }
+
+    #footer .logo p {
+        font-size: 14px;
+        margin-left: 1px;
+    }
+
+    #footer .logo h5 {
+        font-size: 13px;
+        margin-top: -148px;
+    }
+
+
+    #footer .content .p2 {
+        margin-left: 163px;
+        margin-top: -91px;
+        font-size: 18px;
+    }
+
+    #footer .content h6 {
+        margin-top: 4px;
+        font-size: 13px;
+        margin-top: 1px;
+        margin-left: 162px;
+    }
+
+    #footer .link svg {
+        margin-left: 11px;
+        width: 16px;
+        height: 14px;
+    }
+
+
+
+    #footer .linkcnt h6 {
+        font-size: 14px;
+        margin-left: -44px;
+        margin-top: 8px;
+    }
+
+    #footer .linkcnt img {
+        width: 30px;
+        height: 30px;
+        margin: 4px 8px 0 8px;
+        padding: 10px;
+        border-radius: 100%;
+        background-color: #484848;
+    }
+
+    #footer .logo .p0 {
+        margin: 0px 0px;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 180%;
+       
+        color: #bbb9b9;
+    }
+
+    #footer .linkcnt {
+        margin-top: 232px;
+    } */
+
+
+
+
+}
